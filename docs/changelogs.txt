@@ -1,3 +1,4 @@
 # Updated 5/17/2023
 
-+ Attempted to fix the menu breaking when loading with fluxus
+[2;33mAttempted to fix the menu breaking when loading with fluxus
+[0m
