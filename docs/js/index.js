@@ -5,7 +5,7 @@ function loadPngs() {
         .then((result) => {
             document.querySelector("#zeta_pfp").src = result.avatar.url
         });
-    fetch("https://aware-tan-flannel-nightgown.cyclic.app/user/422506355761348608")
+    fetch("https://aware-tan-flannel-nightgown.cyclic.app/user/1188720447454461972")
         .then((r) => r.json())
         .then((result) => {
             document.querySelector("#geodude_pfp").src = result.avatar.url
@@ -15,7 +15,7 @@ function loadPngs() {
         .then((result) => {
             document.querySelector("#lolcat_pfp").src = result.avatar.url
         });
-    fetch("https://aware-tan-flannel-nightgown.cyclic.app/user/1138576117830275204")
+    fetch("https://aware-tan-flannel-nightgown.cyclic.app/user/1177722124035706931")
         .then((r) => r.json())
         .then((result) => {
             document.querySelector("#upio_pfp").src = result.avatar.url
