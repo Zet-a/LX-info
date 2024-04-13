@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "The official lolhax website.",
   openGraph: {
     images: [
-      "https://lolhax.xyz/LolhaxMain.png"
+      "https://www.lolhax.xyz/LolhaxMain.png"
     ]
   }
 };

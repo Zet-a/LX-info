@@ -40,7 +40,7 @@ export function Navbar() {
             
             {/* Mobile Navbar */}
             {currentPage != "" && (
-                <div className="sm:hidden max-sm:flex justify-center items-center mr-5">
+                <div className="sm:hidden max-sm:flex justify-center items-center mr-2">
                     <ModeToggle />
                     
                     <Popover>

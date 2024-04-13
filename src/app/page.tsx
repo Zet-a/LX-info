@@ -32,7 +32,7 @@ export default function Home() {
             <>
               <h1 className="text-4xl font-semibold text-black dark:text-white">
               The ultimate script experience.<br />
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none ">
+                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                   LOLHAX
                 </span>
               </h1>
@@ -44,7 +44,7 @@ export default function Home() {
             alt="Lolhax"
             height={600}
             width={800}
-            className="mx-auto rounded-2xl h-full object-contain"
+            className="w-full h-full object-contain"
             draggable={false}
           />
         </ContainerScroll>
@@ -53,7 +53,7 @@ export default function Home() {
       {/* FAQ */}
       <div className="w-full flex justify-center items-center flex-col">
         <h1 className="text-4xl">FAQ</h1>
-        <Accordion type="single" collapsible className="w-[35rem]">
+        <Accordion type="single" collapsible className="w-[30vw] max-w-[35rem] max-md:w-[70vw]">
           <AccordionItem value="item-1">
             <AccordionTrigger>How do i execute lolhax?</AccordionTrigger>
             <AccordionContent>
@@ -85,7 +85,7 @@ export default function Home() {
 
           <div className="flex flex-row *:mr-5 mb-[50px]">
             {about_us_data.map((data, index) => (
-              <div key={index} className="flex justify-center items-center flex-row mt-5">
+              <div key={index} className="flex justify-center items-center flex-row max-sm:flex-col mt-5">
                 <Image
                   src={`${data.avatar}`}
                   alt={data.name}

@@ -71,7 +71,7 @@ export default function Features() {
                 </SelectContent>
             </Select>
 
-            <Carousel className="w-[35vw] mt-2">
+            <Carousel className="w-[35vw] min-w-[350px] mt-2">
                 <CarouselContent>
                     {Array.from({ length: total_images }, (_, i) => (
                         <CarouselItem key={i}>
