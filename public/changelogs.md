@@ -10,3 +10,4 @@ Lolhax DOORS:
 + Rooms walkbot will now ignore all entities when using fake death.
 
 + Lolhax will now notify with the users username and how many times they've executed total. ( On executed. )
++ Fixed auto padlock for fake death
