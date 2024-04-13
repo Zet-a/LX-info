@@ -25,7 +25,7 @@ const games = [
         name: "DOORS",
         id: "doors",
 
-        total_images: 4,
+        total_images: 5,
         path: "/Lolhax/Doors/"
     },
 
