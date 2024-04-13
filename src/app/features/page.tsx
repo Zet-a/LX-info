@@ -41,7 +41,7 @@ const games = [
 export default function Features() {
     const [current_game, setCurrentGame] = useState<string>("doors");
     const [path, setPath] = useState<string>("/Lolhax/Doors/");
-    const [total_images, setTotalImages] = useState<number>(4);
+    const [total_images, setTotalImages] = useState<number>(5);
 
 
     return (
