@@ -22,9 +22,9 @@ const about_us_data = [
     "avatar": "/Avatars/upio.ico"
   },
   {
-    "name": "Test",
+    "name": "Zeta",
     "role": "Developer",
-    "avatar": "/Avatars/geo.png"
+    "avatar": "/Avatars/zeta.png"
   }
 ]
 
