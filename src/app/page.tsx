@@ -20,6 +20,11 @@ const about_us_data = [
     "name": "upio",
     "role": "Developer",
     "avatar": "/Avatars/upio.ico"
+  },
+  {
+    "name": "Test",
+    "role": "Developer",
+    "avatar": "/Avatars/geo.png"
   }
 ]
 
