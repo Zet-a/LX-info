@@ -1,0 +1,2 @@
+# Lolhax
+a nextjs app
