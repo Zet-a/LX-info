@@ -82,7 +82,7 @@ export default function Changelogs() {
         <main className="relative container">
             <div className="flex flex-col justify-center items-center h-[calc(100vh-50px)]">
                 <h1 className="text-3xl" id="changelog_title">Changelogs</h1>
-                <pre className="text-left language-diff border border-border/90 rounded w-[50vw] mt-3">
+                <pre className="text-left language-diff border border-border/90 rounded w-[50vw] max-md:w-[70vw] max-md:max-h-[50vw] max-md:overflow-scroll max-md:overflow-x-hidden mt-3">
                     <code style={{background: 'none !important', color: "hsl(var(--primary))"}} id="changelog_code" className="language-diff hljs"></code>
                 </pre>
             </div>

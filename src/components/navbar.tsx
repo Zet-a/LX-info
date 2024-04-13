@@ -13,11 +13,15 @@ const pages = [
 ]
 
 
+const mobile_regex = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i
+
 export function Navbar() {
     const [currentPage, setCurrentPage] = useState<string>("");
+    const [isMobile, setIsMobile] = useState<boolean>(false);
 
     useEffect(() => {
         setCurrentPage(window.location.pathname);
+        setIsMobile(mobile_regex.test(navigator.userAgent));
     }, []); 
 
     return (
@@ -50,6 +54,10 @@ export function Navbar() {
                                     return;
                                 }
 
+                                if (!isMobile) {
+                                    return;
+                                }
+                                
                                 toast("WARNING: Lolhax Script", {
                                     description: "This script only supports PC devices, please switch to a PC device to use the script."
                                 });
