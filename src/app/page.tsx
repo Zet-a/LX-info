@@ -77,6 +77,12 @@ export default function Home() {
               You may not refund your purchase, all sales are final.
             </AccordionContent>
           </AccordionItem>
+          <AccordionItem value="item-4">
+            <AccordionTrigger>If i previously bought lolhax, ...</AccordionTrigger>
+            <AccordionContent>
+              All previous buyers from lolhax v2 will NOT get a free license or a discount for lolhax v3.
+            </AccordionContent>
+          </AccordionItem>
         </Accordion>
       </div>
       
