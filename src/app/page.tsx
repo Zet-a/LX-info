@@ -68,7 +68,7 @@ export default function Home() {
           <AccordionItem value="item-2">
             <AccordionTrigger>Is lolhax free?</AccordionTrigger>
             <AccordionContent>
-              No, lolhax is not free, we currently accept as payment Paypal (5$ USD) & Robux (857 Robux).
+              No, lolhax is not free, we currently accept as payment Paypal & Cashapp (5$ USD) & Robux (857 Robux).
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
@@ -80,7 +80,7 @@ export default function Home() {
           <AccordionItem value="item-4">
             <AccordionTrigger>If i previously bought lolhax, ...</AccordionTrigger>
             <AccordionContent>
-              All previous buyers from lolhax will NOT get a free license or a discount for lolhax v3.
+              All previous buyers from lolhax will NOT get a free license or a discount for lolhax v2.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
