@@ -1,15 +1,26 @@
+April 15th 2024
+▔▔▔▔▔▔▔▔▔
+
 Lolhax DOORS:
 
-+ Esp now is entirely functional.
++ Lolhax will now wait for the game to finish loading when executed too quickly.
++ Fixed distance breaking when reviving.
 
-+ Fixed thirdperson on fake death.
-+ Added anti void on fake death.
-+ Fixed fake death not working with R6 equipped avatars.
-+ Fixed auto padlock for fake death.
-+ Jack spam should now ignore beds.
-+ Made jack spam 2 times faster.
+<     General     >
 
-+ Changed maximum walkspeed to 100.
-+ Rooms walkbot will now ignore all entities when using fake death.
++ Main is now renamed to general, you will have to reconfigure the general tab for this.
 
-+ Lolhax will now notify with the users username and how many times they've executed total. ( On executed. )
+<     Exploit     >
+
++ Anti-Dupe will not prevent locked door interaction.
+
+<       ESP       >
+
++ Added custom name color for entity, player, interactables esp.
++ Text size minimum is now 10.
++ Added custom measuring distances.
++ Added text font customizing.
+
+<  Miscellaneous  >
+
++ Added no roblox void, automatically enforced on fake death.
