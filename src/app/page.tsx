@@ -1,5 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
@@ -45,18 +45,18 @@ export default function Home() {
           }
         >
           <Image
-            src={`/Lolhax/Doors/1.png`}
-            alt="Lolhax"
-            height={600}
-            width={800}
-            className="w-full h-full object-contain"
-            draggable={false}
-          />
+              src={`/Lolhax/Doors/1.png`}
+              alt="Lolhax"
+              height={600}
+              width={800}
+              className="w-full h-full object-contain"
+              draggable={false}
+            />
         </ContainerScroll>
       </div>
-      
+
       {/* FAQ */}
-      <div className="w-full flex justify-center items-center flex-col">
+      <div className="w-full flex justify-center items-center flex-col mt-5">
         <h1 className="text-4xl">FAQ</h1>
         <Accordion type="single" collapsible className="w-[30vw] max-w-[35rem] max-md:w-[70vw]">
           <AccordionItem value="item-1">

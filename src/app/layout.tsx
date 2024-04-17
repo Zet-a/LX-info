@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
 import { Toaster } from "@/components/ui/sonner";
 import Link from "next/link";
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,6 +49,8 @@ export default function RootLayout({
                   </svg>
                 </Link>
             </div>
+
+            <Analytics />
             <Toaster />
           </ThemeProvider>
       </body>
