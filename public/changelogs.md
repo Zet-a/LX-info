@@ -1,27 +1,29 @@
-April 15th 2024
+April 23th 2024
 
 ▔▔▔▔▔▔▔▔▔
 
 Lolhax DOORS:
 
-+ Lolhax will now wait for the game to finish loading when executed too quickly.
-+ Fixed distance breaking when reviving.
-
-<     General     >
-
-+ Main is now renamed to general, you will have to reconfigure the general tab for this.
-
 <     Exploit     >
 
-+ Anti-Dupe will not prevent locked door interaction.
++ Tweaked speed bypass. 
++ Footstep spam is now server accurate. 
++ Added idle animation to fake death. 
++ Added no heartbeat minigame fail. 
 
 <       ESP       >
 
-+ Added custom name color for entity, player, interactables esp.
-+ Text size minimum is now 10.
-+ Added custom measuring distances.
-+ Added text font customizing.
++ Fixed text font not updating for players / entities. 
++ Changed esp for figure. 
+
+<     Visuals     >
+
++ Fixed no look bobbing not working after revive. 
++ Added no revive cutscene. 
 
 <  Miscellaneous  >
 
-+ Added no roblox void, automatically enforced on fake death.
++ Added silent jammin modifier. 
++ Added no sound ambience. 
++ Added no window rain sounds. 
++ Added no window thunder sounds. 
