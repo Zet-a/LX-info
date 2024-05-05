@@ -68,7 +68,7 @@ export default function Home() {
           <AccordionItem value="item-2">
             <AccordionTrigger>Is lolhax free?</AccordionTrigger>
             <AccordionContent>
-              No, lolhax is not free, we currently accept as payment Paypal & Cashapp (5$ USD) & Robux (857 Robux).
+              No, lolhax is not free, we currently accept as payment Paypal & Cashapp (8$ USD) & Robux (1,430 Robux).
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
