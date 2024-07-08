@@ -1,29 +1,17 @@
-April 23th 2024
+July 7th 2024
 
 ▔▔▔▔▔▔▔▔▔
 
 Lolhax DOORS:
 
+<     General     >
+
++ Added Auto Breaker Minigame
++ Added Death Farming
++ Added Fast Stats
+
 <     Exploit     >
 
-+ Tweaked speed bypass. 
-+ Footstep spam is now server accurate. 
-+ Added idle animation to fake death. 
-+ Added no heartbeat minigame fail. 
-
-<       ESP       >
-
-+ Fixed text font not updating for players / entities. 
-+ Changed esp for figure. 
-
-<     Visuals     >
-
-+ Fixed no look bobbing not working after revive. 
-+ Added no revive cutscene. 
-
-<  Miscellaneous  >
-
-+ Added silent jammin modifier. 
-+ Added no sound ambience. 
-+ Added no window rain sounds. 
-+ Added no window thunder sounds. 
++ Added Upside Down Character
++ Added Position Spoof Keybind
++ Added Noclip Bypass
