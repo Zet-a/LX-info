@@ -62,7 +62,7 @@ export default function Home() {
           <AccordionItem value="item-1">
             <AccordionTrigger>How do i execute lolhax?</AccordionTrigger>
             <AccordionContent>
-              Use a script executor such as <Link href="https://krampus.gg" className={cn(buttonVariants({variant: "link"}), "ml-0 mr-0 px-0")} target="_blank">Krampus</Link>.
+              Use a script executor such as <Link href="https://getwave.gg" className={cn(buttonVariants({variant: "link"}), "ml-0 mr-0 px-0")} target="_blank">Wave</Link>.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
