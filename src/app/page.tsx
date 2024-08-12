@@ -90,7 +90,7 @@ export default function Home() {
           <AnimationComponent>
             <h1 className="text-3xl">About Us</h1>
             <p className="text-center mt-0.5">
-              Lolhax is a script made by geo, lolcat, upio and zeta.<br></br>
+              Lolhax is a script made by geodude, upio and Zeta.<br></br>
               This script is aimed to provide the best experience in roblox games such as DOORS.
             </p>
           </AnimationComponent>
