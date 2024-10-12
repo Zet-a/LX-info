@@ -83,7 +83,7 @@ export default function Home() {
             <AccordionItem value="item-4">
               <AccordionTrigger>If i previously bought lolhax, ...</AccordionTrigger>
               <AccordionContent>
-                All previous buyers from lolhax will NOT get a free license or a discount for lolhax v2 / v3.
+                All previous buyers from lolhax will NOT get a free license or a discount for LX v3.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
